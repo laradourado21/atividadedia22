@@ -1,0 +1,104 @@
+.titulo-com-imagem-fundo {
+    background-image: url(mmm.png);
+    background-size: fixed;
+    background-position: center;
+    padding: 100px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    background-repeat: no-repeat;
+    
+
+
+}
+body{
+    background-color: rgb(136, 22, 22);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+    min-height: 490vh;
+    
+}
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #000000;
+}
+.menu > li {
+    position: relative;
+    display: inline-block;
+}
+.menu > li > a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+.menu > li > a:hover {
+    background-color:  #570808;
+}
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #000000;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.submenu li {
+    width: 200px;
+}
+.submenu li a {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+.submenu li a:hover {
+    background-color: #570808;
+}
+.menu > li:hover .submenu {
+    display: block;
+}
+
+.imagem{
+    float: left;
+    margin-right: 50px;
+}
+p{
+   font-family: Elephant;
+   color: rgb(252, 244, 244);
+   text-align: center;
+
+}
+h2{
+  font-family: Elephant;
+  text-align: center;
+}
+.container {
+    float: left;
+    height: 100vh;
+}
+.container img{
+    float: left;
+    border-radius: 10px;
+
+}
+.item {
+ float: left;
+ padding: 56px;
+ height: 40vh;
+ gap: 20px;
+}
+section{
+    text-align: center;
+}
+.temporadas{
+    font-family: Verdana;
+}
+
+
+
